@@ -1,0 +1,22 @@
+
+class Demo
+{
+
+  constructor()
+  {
+    this.No1 = 11;
+    this.No2 = 21
+    console.log("Inside constructor")
+  }
+
+}
+
+function main()
+{
+  dobj1 = new Demo()
+  
+  console.log(dobj.No1)
+  console.log(dobj.No2)
+}
+
+main()
