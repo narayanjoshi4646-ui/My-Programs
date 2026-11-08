@@ -1,0 +1,36 @@
+/*
+
+    input :     4
+    output: A   B   C   D
+
+*/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+void pattern(int iNo)
+{
+    int iCnt = 0;
+    char ch = '\0';
+
+    ch = 'A';
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("%c\n",ch);
+        ch++;
+    }
+    printf("\n");
+}
+
+int main()
+{
+     int iValue = 0; 
+
+     printf("Enter the value :\n");
+     scanf("%d",&iValue);
+
+    pattern(iValue);
+
+    return EXIT_SUCCESS;
+}
